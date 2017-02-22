@@ -20,6 +20,9 @@ pandoc --reference-docx=reference.docx ./sample.md -o sample.docx
 pandoc -s ./documents/slide/filename.md --css reveal.css -t revealjs -o ./documents/slide/filename.html
 ```
 
+pdf出力する場合は`?print-pdf`をパラメータに付与する
+
+
 ## Refer
 http://sky-y.github.io/site-pandoc-jp/users-guide/
 http://peccu.hatenablog.com/entry/2015/05/12/000000
